@@ -1,6 +1,6 @@
 # terraform-aws-application-load-balancer
 
-This module provisions an AWS Applocation Load Balancer.
+This module provisions an AWS Application Load Balancer.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
