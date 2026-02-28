@@ -14,7 +14,7 @@ This module provisions an AWS Applocation Load Balancer.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.27.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.28.0 |
 
 ## Modules
 
@@ -35,11 +35,11 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | The AWS region to provision resources into | `string` | n/a | yes |
-| <a name="input_http_port"></a> [http\_port](#input\_http\_port) | HTTP port number for EC2 ingress in security group | `number` | `80` | no |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | Name of the project | `string` | n/a | yes |
 | <a name="input_subnet_ids"></a> [subnet\_ids](#input\_subnet\_ids) | A list of subnet IDs for the load balancer | `list(string)` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to assign to resources | `map(string)` | n/a | yes |
 | <a name="input_vpc_id"></a> [vpc\_id](#input\_vpc\_id) | The ID of the VPC where the load balancer will be deployed | `string` | n/a | yes |
+| <a name="input_http_port"></a> [http\_port](#input\_http\_port) | HTTP port number for EC2 ingress in security group | `number` | `80` | no |
 
 ## Outputs
 
