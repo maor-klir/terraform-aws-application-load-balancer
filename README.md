@@ -14,7 +14,7 @@ This module provisions an AWS Application Load Balancer.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.28.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.34.0 |
 
 ## Modules
 
@@ -40,6 +40,7 @@ No modules.
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to assign to resources | `map(string)` | n/a | yes |
 | <a name="input_vpc_id"></a> [vpc\_id](#input\_vpc\_id) | The ID of the VPC where the load balancer will be deployed | `string` | n/a | yes |
 | <a name="input_http_port"></a> [http\_port](#input\_http\_port) | HTTP port number for EC2 ingress in security group | `number` | `80` | no |
+| <a name="input_https_port"></a> [https\_port](#input\_https\_port) | HTTPS port number for target group backend traffic | `number` | `443` | no |
 
 ## Outputs
 
